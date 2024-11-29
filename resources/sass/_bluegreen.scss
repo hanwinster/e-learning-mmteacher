@@ -1,0 +1,112 @@
+/* from schemecolor blue green pastel */
+$pastel1: #209BBA;
+$pastel2: #42AAC3;
+$pastel3: #64B9CC;
+$pastel4: #A8D8DF;
+$pastel5: #CAE7E8;
+
+/* menu */
+.bluegreen {
+    .bg-secondary {
+        background-color: $pastel1 !important;
+    }
+    .nav-link:hover {
+        color: #333 !important;
+    }
+    .nav-link.active {
+        background-color: $pastel5 !important;
+        color: $pastel1 !important;
+        font-weight: 600 !important;
+    }
+    .nav-link.active:hover {
+        background-color: $pastel1 !important;
+        color: #fff !important;
+        border-color: $pastel3 !important;
+        font-weight: 600 !important;
+    }
+    .btn-primary.btn-sm {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: $pastel4 !important;
+    }
+    .btn-primary.btn-sm:hover {
+        background-color: $pastel3 !important;
+        border-color: $pastel3 !important;
+    } 
+    /* slider area */
+    .wrap:before {
+        background: $pastel1;
+        opacity: 0.6;
+    }
+    .stick-bottom.bg-secondary {
+        .btn.btn-primary.btn-lg.w-100 {
+            color:$pastel1 !important;
+            background-color: $pastel5 !important;
+            border-color: $pastel5 !important;
+        }
+        .btn.btn-primary.btn-lg.w-100:hover {
+            color: #fff !important;
+            background-color: transparent !important;
+            border-color: $pastel5 !important;
+        }
+    }
+    .search  {
+        .fa-graduation-cap {
+            color: $pastel3 !important;
+        }
+        .btn.btn-primary {
+            color: #fff !important;
+            background-color: $pastel3 !important;
+            border-color: $pastel3 !important;
+        }
+        .btn.btn-primary:hover {
+            color: #333 !important;
+            background-color: $pastel2 !important;
+            border-color: $pastel2 !important;
+        }
+    }
+    /* featured courses */
+    #courses {
+        .btn.btn-primary.btn-md,
+        .btn.btn-lg.btn-primary {
+            color: #fff !important;
+            background-color: $pastel3 !important;
+            border-color: $pastel3 !important;
+        }
+
+        .btn.btn-primary.btn-md:hover,
+        .btn.btn-lg.btn-primary:hover {
+            color: #fff !important;
+            background-color: $pastel1 !important;
+            border-color: $pastel1 !important;
+        }
+    }
+
+    /* about us */
+    #about {
+        background-color: $pastel3 !important;
+    }
+
+    /* faq */
+
+
+    /* contact us */
+    #contact {
+        background-color: $pastel3 !important;
+
+        .btn.btn-outline-primary.btn-lg {
+            color: #fff !important;
+            background-color: $pastel2 !important;
+            border-color: $pastel2 !important;
+        }
+        .btn.btn-outline-primary.btn-lg:hover {
+            background-color: $pastel1 !important;
+            border-color: $pastel1 !important;
+        }
+    }
+    /* footer */
+    #footer-bar {
+        background-color: $pastel1 !important;
+    }
+}
+

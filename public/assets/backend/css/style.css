@@ -1,0 +1,110 @@
+body.my-ZG,
+.my-ZG h1,
+.my-ZG h2,
+.my-ZG h3,
+.my-ZG h4,
+.my-ZG h5,
+.my-ZG h6,
+.my-ZG .h1,
+.my-ZG .h2,
+.my-ZG .h3,
+.my-ZG .h4,
+.my-ZG .h5,
+.my-ZG .h6,
+.my-ZG input,
+.my-ZG select,
+.my-ZG textarea,
+.my-ZG button,
+.my-ZG .menu-category {
+    font-family: "Zawgyi-One", Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0px;
+}
+
+body.my-MM,
+.my-MM h1,
+.my-MM h2,
+.my-MM h3,
+.my-MM h4,
+.my-MM h5,
+.my-MM h6,
+.my-MM .h1,
+.my-MM .h2,
+.my-MM .h3,
+.my-MM .h4,
+.my-MM .h5,
+.my-MM .h6,
+body.my-MM input,
+.my-MM select,
+.my-MM textarea,
+.my-MM button,
+.my-MM .menu-category {
+    font-family: "Noto Sans Myanmar", Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0px;
+}
+
+body.en,
+.en h1,
+.en h2,
+.en h3,
+.en h4,
+.en h5,
+.en h6,
+.en .h1,
+.en .h2,
+.en .h3,
+.en .h4,
+.en .h5,
+.en .h6,
+.en input,
+.en select,
+.en textarea,
+.en button,
+.en .menu-category {
+    font-family: "Noto Sans Myanmar", Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0px;
+}
+
+.header-info {
+    margin: 15px 0;
+}
+
+.sidebar-header {
+    background-color: #FFF !important;
+}
+
+.sidebar.sidebar-light .menu>.menu-item:hover>.menu-link {
+    color: #4d5259;
+    background-color: #ddd !important;
+    /* #f9fafb; */
+}
+
+.sidebar.sidebar-light .menu>.menu-item.active>.menu-link {
+    background-color: #eee;
+    color: #4d5259;
+}
+
+.menu-submenu .menu-item.active {
+    background-color: #eee !important;
+}
+
+.dropdown-menu.show {
+    top: 35px !important;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: white;
+    border: 1px solid #ebebeb !important;
+    border-radius: 4px;
+    cursor: text;
+    padding: 5px 12px;
+}
+
+.vee-validate-invalid-feedback {
+    width: 100%;
+    margin-top: .25rem;
+    color: #ff4954;
+}
+
+.bg-success{
+    background-color: #0069b4!important;
+}

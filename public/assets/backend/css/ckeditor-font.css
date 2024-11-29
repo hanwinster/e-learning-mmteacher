@@ -1,0 +1,67 @@
+/* @import url('https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu');
+@import url('https://mmwebfonts.comquas.com/fonts/?font=zawgyi');
+*/
+@import url('/public/assets/fonts/fonts/zawgyi.ttf');
+@import url('/public/assets/fonts/fonts/Pyidaungsu-2.5.3_Regular.ttf');
+
+body.my-ZG,
+.my-ZG h1,
+.my-ZG h2,
+.my-ZG h3,
+.my-ZG h4,
+.my-ZG h5,
+.my-ZG h6,
+.my-ZG .h1,
+.my-ZG .h2,
+.my-ZG .h3,
+.my-ZG .h4,
+.my-ZG .h5,
+.my-ZG .h6,
+.my-ZG  input,
+.my-ZG select,
+.my-ZG textarea,
+.my-ZG button,
+.my-ZG .menu-category
+{
+    font-family: "Zawgyi-One", Arial, Helvetica, sans-serif !important;
+}
+
+body.my-MM,
+.my-MM h1,
+.my-MM h2,
+.my-MM h3,
+.my-MM h4,
+.my-MM h5,
+.my-MM h6,
+.my-MM .h1,
+.my-MM .h2,
+.my-MM .h3,
+.my-MM .h4,
+.my-MM .h5,
+.my-MM .h6
+body.my-MM input,
+.my-MM select,
+.my-MM textarea,
+.my-MM button,
+.my-MM .menu-category
+{
+    font-family: "Pyidaungsu", Arial, Helvetica, sans-serif !important;
+}
+
+body.en,
+.en h1,
+.en h2,
+.en h3,
+.en h4,
+.en h5,
+.en h6,
+.en .h1,
+.en .h2,
+.en .h3,
+.en .h4,
+.en .h5,
+.en .h6
+input, select, textarea, button
+{
+    font-family: "Pyidaungsu", Arial, Helvetica, sans-serif !important;
+}

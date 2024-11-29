@@ -1,0 +1,111 @@
+/* from schemecolor dark-light-blue-gradient site */
+$darkLight1: #00008C;
+$darkLight2: #2234A8;
+$darkLight3: #4467C4;
+$darkLight4: #659BDF;
+$darkLight5: #87CEFB;
+
+/* menu */
+.darklightblue {
+
+    .bg-secondary {
+        background-color: $darkLight1 !important;
+    }
+    .nav-link:hover {
+        color: $darkLight5 !important;
+    }
+    .nav-link.active {
+        background-color: $darkLight5 !important;
+        color: $darkLight1 !important;
+        font-weight: 600 !important;
+    }
+    .nav-link.active:hover {
+        background-color: $darkLight1 !important;
+        color: #fff !important;
+        border-color: $darkLight3 !important;
+        font-weight: 600 !important;
+    }
+    .btn-primary.btn-sm {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: $darkLight4 !important;
+    }
+    .btn-primary.btn-sm:hover {
+        background-color: $darkLight3 !important;
+        border-color: $darkLight3 !important;
+    }
+    /* slider area */
+    .wrap:before {
+        background: $darkLight3;
+        opacity: 0.6;
+    }
+    .stick-bottom.bg-secondary {
+        .btn.btn-primary.btn-lg.w-100 {
+            color:$darkLight1 !important;
+            background-color: $darkLight5 !important;
+            border-color: $darkLight5 !important;
+        }
+        .btn.btn-primary.btn-lg.w-100:hover {
+            color: #fff !important;
+            background-color: transparent !important;
+            border-color: $darkLight5 !important;
+        }
+    }
+    .search  {
+        .fa-graduation-cap {
+            color: $darkLight3 !important;
+        }
+        .btn.btn-primary {
+            color: #fff !important;
+            background-color: $darkLight3 !important;
+        }
+        .btn.btn-primary:hover {
+            background-color: $darkLight2 !important;
+            border-color: $darkLight2 !important;
+        }
+    }
+    /* featured courses */
+    #courses {
+        .btn.btn-primary.btn-md,
+        .btn.btn-lg.btn-primary {
+            color: #fff !important;
+            background-color: $darkLight3 !important;
+            border-color: $darkLight3 !important;
+        }
+
+        .btn.btn-primary.btn-md:hover,
+        .btn.btn-lg.btn-primary:hover {
+            color: #fff !important;
+            background-color: $darkLight2 !important;
+            border-color: $darkLight2 !important;
+        }
+    }
+
+    /* about us */
+    #about {
+        background-color: $darkLight3 !important;
+    }
+
+    /* faq */
+
+
+    /* contact us */
+    #contact {
+        background-color: $darkLight4 !important;
+
+        .btn.btn-outline-primary.btn-lg {
+            color: #fff !important;
+            background-color: $darkLight2 !important;
+            border-color: $darkLight2 !important;
+        }
+        .btn.btn-outline-primary.btn-lg:hover {
+            background-color: $darkLight1 !important;
+            border-color: $darkLight1 !important;
+        }
+    }
+    /* footer */
+    #footer-bar {
+        background-color: $darkLight1 !important; 
+    }
+}
+

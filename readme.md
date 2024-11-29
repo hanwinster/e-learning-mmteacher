@@ -1,0 +1,24 @@
+## UNESCO eLibrary
+
+### Background
+The Government of Myanmar has prioritized teacher education in its education reform efforts, recognizing that improvement in quality of teachers is essential to quality education and positive student learning outcomes. Pre-service teacher training in Myanmar is delivered through 25 Education Colleges (ECs) under the Department of Higher Education (DHE), Ministry of Education (MoE). These ECs train primary and lower secondary school teachers for the country.
+
+Myanmar’s ECs play a key role in developing the country’s teachers. They are spread geographically throughout the country and have significant potential to be powerful learning hubs within their communities. However, at present, they face several major challenges including inadequate access to subject matter and teacher education reference materials—both in print and in digital form. Also, due to relatively low ICT capacity among EC student teachers, teacher educators and staff, it is difficult for them to share resources and collaborate with their counterparts at other ECs.
+
+Through the “Strengthening Pre-Service Teacher Education in Myanmar” (STEM) project, UNESCO has been supporting the MoE to improve the pre-service teacher education system in Myanmar, including developing a new competency-based curriculum on all EC subjects and learning areas as MoE is working towards to upgrade ECs from two-year diploma awarding institutions to four-year degree ones. The piloting of the new first-year EC curriculum is expected to start in selected ECs in January 2019. Currently, all ECs have been equipped with fiber Internet, some laptops and tablets to access the Internet. Training is provided to ICT teacher educators annually to support them for using ICT effectively in teaching and learning, including the use of smartphones and some applications/tools available online to facilitate interaction between teacher educators and student teachers.
+
+To support further knowledge sharing and network strengthening among ECs, an online learning portal prototype, which includes two components, e-library for the sharing of selected teaching and learning resources relevant and appropriate to the new four-year EC curriculum for various subjects and learning areas and e-learning for the delivery of online learning modules in support of the new EC curriculum, was developed. The prototype is web-based but the plan is to develop a mobile phone application as well for easy access, considering that the majority of potential end-users own smartphones rather than desktops or laptops. The end-users of the online learning portal will mainly be EC staff, teacher educators and student teachers, as well as MoE officials.
+
+The online learning portal prototype was developed and was shared to stakeholders, including the MoE representatives and EC teacher educators and staff for feedback. Based on the feedback, UNESCO is seeking a contractor to develop the e-library component to suit the need of ECs and to respond to requests from the stakeholders, in time for piloting the e-library in selected ECs in January 2019.
+
+### Objectives
+The work undertaken through this assignment will contribute to the STEM project. The contractor will develop a fully working e-library to suit the need of ECs and to respond to requests from the stakeholders. The e-library prototype previously developed can be used as a reference to guide the development of the e-library; however, the contractor can either build further on the prototype or develop a new e-library as appropriate as long as the e-library is developed based on the requirements in the terms of reference and the design document at Appendix A. The e-library needs to have a responsive web version and a native Android mobile application version. It is recommended to develop the native mobile application using cross-platform development tools so that in future the source code can be easily modified to develop the native application running on other mobile operating system environment.
+
+The purposes of the e-library are to:
+
+1. improve EC staff, teacher educators and student teachers’ access in an organized way to teaching and learning
+materials and teacher education references in various media formats; and
+
+2. allow sharing of teaching and learning resources among ECs.
+
+The e-library is intended for users who have had little to no experience navigating websites. Therefore, the e-library, on the web version and on the mobile application version, must have a simple, streamlined, user-friendly design that clearly directs users to the key resources.

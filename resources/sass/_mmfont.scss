@@ -1,0 +1,80 @@
+/* Added for myanmar fonts */
+@font-face {
+    font-family:'Pyidaungsu';
+    src:local('Pyidaungsu'),
+    url('/public/assets/fonts/fonts/Pyidaungsu-2.5.3_Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family:'PyidaungsuBold';
+    src:local('Pyidaungsu'),
+    url('/public/assets/fonts/fonts/Pyidaungsu-2.5.3_Bold.ttf') format('ttf');
+    font-weight:bold;
+ } 
+ @font-face {
+    font-family:'Myanmar3';
+    src:local('Myanmar3'),
+    url('/public/assets/fonts/fonts/Myanmar3-2018.ttf') format('ttf');
+ }
+ @font-face {
+    font-family:'Zawgyi';
+    src:local('Zawgyi-One'),
+    url('/public/assets/fonts/fonts/zawgyi.ttf') format('ttf');
+    /* url('/public/assets/fonts/fonts/zawgyi.woff') format('woff'); */
+ }
+ 
+.my-MM, body.my-MM {
+  h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1,
+  div, p, span, a,
+  pre, code, kbd, samp, input, button, select, optgroup, textarea,
+  table th, table td {
+    font-family:Pyidaungsu,Myanmar3 !important;
+    
+  }
+}
+
+.my-ZG, body.my-ZG {
+  h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1,
+  div, p, span, a,
+  pre, code, kbd, samp, input, button, select, optgroup, textarea,
+  table th, table td {
+    font-family:Zawgyi-One !important;
+    
+  }
+}
+
+.my-MM, .my-ZG {
+  .breadcrumb {
+    margin-top: 2rem !important;
+  }
+}
+
+.my-ZG, body.my-ZG {
+  span.force-uni-for-zg {
+    font-family: Pyidaungsu,Myanmar3 !important; 
+  }
+}
+
+.my-MM {
+  .page-section {
+    padding-top: 5rem !important;
+  }
+  .brand-text {
+    font-size:1rem !important; 
+  }
+  
+  .nav-link, .dropdown {
+    font-size: 0.95rem !important;
+  }
+  .dropdown-toggle,.dropdown-toggle .nav-item,
+  .dropdown-item,
+  .form-check.form-switch.me-2 label {
+    font-size: 0.9rem !important;
+  }
+  .fs-h3,
+  .btn.btn-primary.btn-lg.w-100 {
+    font-size: 1.15rem !important;
+  }
+  .page-section .page-section-heading {
+    font-size: 1.8rem !important;
+  }
+}

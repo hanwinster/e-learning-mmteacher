@@ -1,0 +1,121 @@
+/* from oppochrome ref site */
+$oppo5: #6c70f6;
+$oppo3: #E88E2E;
+$oppo1: #1f148a;
+$oppo4: #342ccd;
+$oppo2: #6c9b3d;
+
+/* menu */
+.opposite {
+    .bg-secondary {
+        background-color: $oppo1 !important;
+    }
+    .nav-link, .dropdown-toggle, a.btn.btn-primary.btn-sm, .fs-h3  {
+        color: $oppo3 !important;
+    }
+    .nav-item:hover {
+        color: $oppo2 !important;
+    }
+    .nav-link.active {
+        background-color: $oppo3 !important;
+        color: $oppo1 !important;
+        font-weight: 600 !important;
+    }
+    .nav-link.active:hover {
+        background-color: $oppo1 !important;
+        color: #fff !important;
+        border-color: $oppo3 !important;
+        font-weight: 600 !important;
+    }
+    .btn-primary.btn-sm {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: $oppo3 !important;
+    }
+    .btn-primary.btn-sm:hover, a.btn.btn-primary.btn-sm:hover {
+        background-color: $oppo3 !important;
+        border-color: $oppo3 !important;
+        color: $oppo1 !important; 
+    } 
+    /* slider area */
+    .wrap:before {
+        background: $oppo2; 
+        opacity: 0.6;
+    }
+    .stick-bottom.bg-secondary {
+        .btn.btn-primary.btn-lg.w-100 {
+            color: $oppo1 !important;
+            background-color: $oppo3 !important;
+            border-color: $oppo3 !important;
+        }
+        .btn.btn-primary.btn-lg.w-100:hover {
+            color: $oppo3 !important;
+            background-color: transparent !important;
+            border-color: $oppo3 !important;
+        }
+    }
+    .search  {
+        .fa-graduation-cap {
+            color: $oppo3 !important;
+        }
+        .btn.btn-primary {
+            color: #fff !important;
+            background-color: $oppo3 !important;
+            border-color: $oppo3 !important;
+        }
+        .btn.btn-primary:hover {
+            background-color: $oppo2 !important;
+            border-color: $oppo2 !important;
+        }
+    }
+    /* featured courses */
+    #courses {
+        .btn.btn-primary.btn-md,
+        .btn.btn-lg.btn-primary {
+            color: $oppo1 !important;
+            background-color: $oppo3 !important;
+            border-color: $oppo3 !important;
+        }
+
+        .btn.btn-primary.btn-md:hover,
+        .btn.btn-lg.btn-primary:hover {
+            color: #fff !important;
+            background-color: $oppo2 !important;
+            border-color: $oppo2 !important;
+        }
+    }
+
+    /* about us */
+    #about {
+        background-color: $oppo2 !important;
+    }
+
+    /* faq */
+
+
+    /* contact us */
+    #contact {
+        background-color: $oppo2 !important;
+
+        .btn.btn-outline-primary.btn-lg {
+            color: #fff !important;
+            background-color: $oppo4 !important;
+            border-color: $oppo4 !important;
+        }
+        .btn.btn-outline-primary.btn-lg:hover {
+            background-color: $oppo1 !important;
+            border-color: $oppo1 !important;
+            color: $oppo3 !important;
+        }
+    }
+
+    #logo-wrapper img {
+        filter: invert(57%) sepia(82%) saturate(602%) hue-rotate(343deg) brightness(99%) contrast(84%);
+    }
+
+    
+    /* footer */
+    #footer-bar {
+        background-color: $oppo1 !important;
+    }
+}

@@ -1,0 +1,255 @@
+
+  
+  .overlay {
+    position: fixed;
+    z-index: 99998;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.3);
+  }
+  
+  .em-edit-day {
+    position: fixed;
+    z-index: 99999;
+    width: 900px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
+    clear: both;
+    border-radius: 2px;
+  }
+  
+  .em-day-header {
+    height: 30px;
+    background: #4285f4;
+    color: #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.24);
+  }
+  
+  .emp-head, 
+  .job-head, 
+  .vhc-head {
+    display: inline-block;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    //font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .emp-head,
+  .vhc-head {
+    width: 20%;
+  }
+  
+  .emp-head:before {
+    font-family: FontAwesome;
+    content: '\f007';
+    padding: 0 5px;
+  }
+  
+  .vhc-head:before {
+    font-family: FontAwesome;
+    content: '\f1b9';
+    padding: 0 5px;
+  }
+  
+  .job-head {
+    width: 60%;
+  }
+  
+  .job-head:after {  
+    font-family: FontAwesome;
+    content: '\f073';
+    padding: 0 5px;
+  }
+  
+  .em-day-body {
+    height: calc(100% - 30px);
+  }
+  
+  .em-day-content {
+    height: 100%;
+    display: inline-block;
+    float: left;
+    padding: 5px;
+  }
+  
+  .employees,
+  .vehicles {
+    width: 20%;
+  }
+  
+  .jobs {
+    width: 60%;
+  }
+  
+  .drag-content, .drop-content {  
+    width: 100%;
+    height: 100%;
+    background: #cde1fb;
+    //box-shadow: inset 0 0 2px rgba(0,0,0,.12), inset 0 2px 4px rgba(0,0,0,.24);
+    //padding: 10px;
+    //overflow-y: auto;
+    //border-radius: 2px;
+  }
+  
+  
+  .emp,
+  .vhc{
+    z-index: 10;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: box-shadow .1s ease;
+    
+    & + .emp,
+    & + .vhc {
+      margin-top: 10px;
+    }
+    
+    &.dragged {
+      box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
+      z-index: 11;
+    }
+    
+    &.dropped {
+      position: static !important;
+      padding: 0;
+      box-shadow: none;
+      margin: 0;
+      display: inline; 
+      background: transparent;
+      color: #0056d2;
+    }
+  }
+  .emp2{
+    z-index: 10;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: box-shadow .1s ease;
+    // width: 31.5%; 
+    min-height: 36px;
+    height: auto;
+    // margin-right: 8px;
+    & + .emp2 {
+      margin-top: 10px; 
+    }
+    
+    &.dragged {
+      box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
+      z-index: 11;
+    }
+    
+    &.dropped {
+      position: static !important;
+      padding: 0;
+      box-shadow: none;
+      margin: 0;
+      display: inline; 
+      background: transparent;
+      color: #0056d2;
+    }
+  }
+  // .emp2:first-child {
+  //   margin-left: 6px !important;
+  // }
+  // .emp2:last-child {
+  //   margin-right: 6px !important;
+  // }
+  .drag-content-0,
+  .drag-content-1,
+  .drag-content-2, 
+  .drag-content-3,
+  .drag-content-4,
+  .drag-content-5,
+  .drag-content-6,
+  .drag-content-7,
+  .drag-content-8,
+  .drag-content-9,
+  .drag-content-10,
+  .drag-content-11, 
+  .drag-content-12 {
+    padding: 15px 10px;
+    border: 0.25rem solid rgba(137, 196, 244, 0.25);
+    box-shadow: 0 3px 3px 0 rgb(44 130 237 / 20%);
+  }
+  .job {
+    display: inline-block;
+    float: left;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    width: 97%;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 2px;
+    
+    .job-name {
+      padding: 5px;
+      height: 40px;
+      background: #fff;
+      color: #0056d2;    
+      font-weight: bold;
+      text-align: left;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;      
+    }
+    .job-name.line {
+      padding: 5px;
+      height: 60px;
+      border-top: 1px solid rgba(0,0,0,.12); 
+      transition: all .2s ease;
+    }
+    .job-name.line {
+      img {
+        width: 60px !important;
+        height: auto;
+      }
+    }
+    .job-emp,
+    .job-vhc {   
+      
+      position: relative;
+      padding: 5px;
+      padding-left: 35px;
+      height: 60px;
+      border-top: 1px solid rgba(0,0,0,.12);
+      transition: all .2s ease;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;  
+        top: 8px;
+        font-family: FontAwesome;
+        text-align: left;
+        width: 100%;
+        color: #0056d2;
+        border-bottom: 1px dotted #0056d2;
+      }    
+      
+      &.active {
+        background: #cde1fb;
+        &:before {
+          color: #0056d2;
+          border-color: #0056d2;
+        }
+      }
+    }
+    .job-emp:before {content: '\f007';}
+    .job-vhc:before {content: '\f1b9';}
+  }
+
+  
+  

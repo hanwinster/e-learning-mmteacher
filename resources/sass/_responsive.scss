@@ -1,0 +1,414 @@
+/*
+* xs  = 0-575
+* sm  = 576-767
+* md  = 768-991
+* lg  = 992-1199
+* xl  = 1200-1399
+* xxl  = 1400-
+*/
+@media (min-width: 1800px) {
+    .carousel-item img {
+        height: 88vh !important; 
+    }
+}
+
+@media (min-width: 1400px)  { //xxl
+    
+    a.btn.btn-primary.btn-lg {
+        padding: 0.4rem 1rem !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { //xl
+    a.nav-link, a.btn, span.dropdown-toggle {
+        font-size: 0.94rem !important;
+    }
+    a.btn.btn-primary.btn-lg {
+        padding: 0.4rem 1rem !important;
+    }
+    .fe-logo {
+        margin-bottom: 10px !important;
+        margin-left: 2rem !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
+    a.fe-logo-text {
+        font-size: 14px !important;
+        margin-left: -6rem !important;
+    }
+    .home-cat-container .mt-3 {
+        margin-top: 0.7rem !important;
+    }
+     .my-MM .dropdown,  
+    .my-MM .form-check.form-switch.me-2 label,
+    .my-MM .dropdown-toggle,
+    .my-MM a.fe-logo-text,
+    .my-MM .search input {
+        font-size: 0.75rem !important;
+    }
+    .my-MM .nav-link,.my-MM a.btn {
+        font-size: 0.7rem !important;
+    }
+    .my-MM .btn.btn-primary.btn-lg.w-100 {
+        font-size: 0.9rem !important;
+    }
+}
+@media (max-width: 1300px) {
+    .page-section.bg-primary.text-white.mb-0.vh-100 {
+        height: auto !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { //lg
+    a.nav-link, a.btn, span.dropdown-toggle, .form-check.form-switch label.form-check-label {
+        font-size: 0.86rem !important;
+    }
+    h2.page-section-heading {
+        font-size: 2rem !important;
+    }
+    span.fs-h3 {
+        font-size: 1.5rem;
+    }
+    .search input {
+        height: 50px;
+    }
+    .search button {
+        height: 40px;
+    }
+    h4.card-title {
+        font-size: 1.3rem;
+    }
+    #courses .container {
+        max-width: 100% !important;
+    }
+    .fe-logo {
+        margin-bottom: 10px !important;
+        margin-left: 2rem !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+    a.fe-logo-text {
+        font-size: 13px !important;
+        margin-left: -2rem !important;
+    }
+    .navbar {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { //md
+    .h-8 {
+        height: 12rem;
+    }
+    .carousel-item img {
+        height: 74vh !important;
+    }
+    a.btn.btn-primary.btn-lg {
+        margin: 0rem 0.5rem 1rem 0.5rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    span.fs-h3 {
+        font-size: 1.2rem;
+    }
+    .search input {
+        height: 50px;
+    }
+    .search button {
+        height: 40px;
+    }
+    h4.card-title {
+        font-size: 1.2rem;
+    }
+    #courses .container {
+        max-width: 100% !important;
+    }
+    #video-footer {
+        bottom: 22rem !important;
+    }
+    .fe-logo {
+        margin-bottom: 4px !important;
+        margin-left: 2rem !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+    a.fe-logo-text {
+        font-size: 13px !important;
+        margin-left: -2rem !important;
+    }
+    .navbar {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link.active {
+        padding: 0.6rem !important;
+    }
+    //.navbar-light .navbar-nav .nav-link {
+        // color: #ffffff !important;
+   // }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #333 !important;
+    }
+    .navbar > .container-fluid{
+        display: block !important;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+    }
+    .search img {
+        top: 14px !important;
+    }
+    .navbar {
+        padding-bottom: 0 !important;
+        margin-bottom: -1rem !important;
+    }
+    .carousel-item img {
+        object-fit: contain;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) { //sm
+    .card-header.signup {
+        height:auto;
+        padding: 6px;
+    }
+    .h-8 {
+        height: 8.2rem;
+    }
+    .h-8 .mt-5 {
+        margin-top: 20px !important;
+    }
+    
+    a.btn.btn-primary.btn-lg {
+        margin: 0rem 0rem 0.5rem 0rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    span.fs-h3 {
+        font-size: 1.1rem;
+    }
+    .search {
+        margin-bottom: 50px;
+    }
+    .search input {
+        height: 44px;
+    }
+    .search img {
+        top: 10px !important;
+    }
+    .search button {
+        height: 34px;
+    }
+    .search .fa-graduation-cap {
+        font-size: 1.1rem;
+    }
+    h4.card-title {
+        font-size: 1rem;
+    }
+    #courses .container {
+        max-width: 100% !important;
+    }
+    .page-section.bg-primary.text-white.mb-0.vh-100 {
+        height: auto !important;
+    }
+    #video-footer {
+        bottom: 7.8rem !important;
+    }
+    .fe-logo {
+        margin-bottom: 2px !important;
+        margin-left: 2rem !important;
+        width: 40px !important;
+        height: 40px !important;
+    }
+    a.fe-logo-text {
+        font-size: 13px !important;
+        margin-left: -2rem !important;
+    }
+    .navbar {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 575.98px) { //xs
+    /* 
+        same as@include media-breakpoint-only(xs)
+    */
+    .card-header.signup { 
+        height:auto;
+        padding: 6px;
+    }
+    .h-8 {
+        height: 14rem;
+    }
+    .h-8 .mt-5 {
+        margin-top: 40px !important;
+    }
+    .carousel-item img {
+        height: 70vh !important;
+    }
+    a.btn.btn-primary.btn-lg {
+        margin: 0rem 0rem 0.5rem 0rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    span.fs-h3 {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+    }
+    .search {
+        margin-bottom: 50px;
+    }
+    .search input {
+        height: 44px;
+    }
+    .search button {
+        height: 34px;
+    }
+    .search img {
+        top: 10px !important;
+    }
+    .search .fa-graduation-cap {
+        font-size: 1.1rem;
+    }
+    h4.card-title {
+        font-size: 1rem;
+    }
+    #courses .container {
+        max-width: 100% !important;
+    }
+    .page-section.bg-primary.text-white.mb-0.vh-100 {
+        height: auto !important;
+    }
+    .page-section.mb-0.vh-100 {
+        height: auto !important;
+    }
+    #video-footer {
+        bottom: 0rem !important;
+    }
+    .fe-logo {
+        margin-bottom: 0px !important;
+        margin-left: 2rem !important;
+        width: 34px !important;
+        height: 34px !important;
+    }
+    a.fe-logo-text {
+        font-size: 11px !important;
+        margin-left: -2rem !important;
+    }
+    .navbar {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .navbar-toggler.bg-white {
+        padding: 0.1rem 0.2rem;
+        margin-top: 0.5rem;
+        margin-right: 4px !important;
+    }
+    .navbar-toggler-icon {
+        width: 1.2em !important;
+        height: 1.2em !important;
+    }
+    .dropdown-toggle, .form-check-label {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 430px) { 
+    .fe-logo {
+        margin-bottom: 0px !important;
+        margin-left: 1.3rem !important;
+        width: 28px !important;
+        height: 28px !important;
+    }
+    a.fe-logo-text {
+        font-size: 10px !important;
+        margin-left: -2rem !important;
+    }
+    .navbar {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .navbar-toggler.bg-white {
+        padding: 0.1rem 0.1rem;
+        margin-top: 0.6rem !important;
+        margin-right: 4px !important;
+    }
+    .navbar-toggler-icon {
+        width: 1em !important;
+        height: 1em !important;
+    }
+    .dropdown-toggle, .form-check-label {
+        font-size: 0.8rem !important;
+    }
+
+}
+@media (max-width: 398.98px) { //xxs
+    /* 
+        same as@include media-breakpoint-only(xxs)
+    */
+    #navbar-header {
+        padding: 0.4rem !important;
+    }
+    .fe-logo {
+        width: 40px;
+        height: 40px;
+        margin-top: 4px;
+    }
+    .card-header.signup { 
+        height:auto;
+        padding: 6px;
+    }
+    .h-8 {
+        height: 40vh !important;
+    }
+    .h-8 .mt-5 {
+        margin-top: 60px !important;
+    }
+    .carousel-item img {
+        height: 60vh !important;
+    }
+    a.btn.btn-primary.btn-lg {
+        margin: 0.3rem 0rem 0.5rem 0rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    span.fs-h3 {
+        font-size: 1.1rem;
+        margin-bottom: 8px; 
+    }
+    .search {
+        margin-bottom: 100px;
+    }
+    .search input {
+        height: 44px;
+    }
+    .search button {
+        height: 34px;
+    }
+    .search img {
+        top: 10px !important;
+    }
+    .search .fa-graduation-cap {
+        font-size: 1.1rem;
+    }
+    h4.card-title {
+        font-size: 1rem;
+    }
+    #courses .container {
+        max-width: 100% !important;
+    }
+    .carousel-indicators {
+        margin-bottom: 5rem !important;
+    }
+}
+
+@media (max-width: 394px) { 
+    
+    a.fe-logo-text { 
+        font-size: 9px !important;
+        margin-top: -10px !important;
+    }
+    
+}

@@ -1,0 +1,112 @@
+/* from schemecolor cool monochromatic ref site */
+$monoBlue1: #3B69B7;
+$monoBlue2: #5985D0;
+$monoBlue3: #6A96E1;
+$monoBlue4: #81A9EE;
+$monoBlue5: #BBD3FB;
+
+/* menu */
+.monochrome {
+    .bg-secondary {
+        background-color: $monoBlue1 !important;
+    }
+    .nav-link:hover {
+        color: #333 !important;
+    }
+    .nav-link.active {
+        background-color: $monoBlue5 !important;
+        color: $monoBlue1 !important;
+        font-weight: 600 !important;
+    }
+    .nav-link.active:hover {
+        background-color: $monoBlue1 !important;
+        color: #fff !important;
+        border-color: $monoBlue3 !important;
+        font-weight: 600 !important;
+    }
+    .btn-primary.btn-sm {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: $monoBlue4 !important;
+    }
+    .btn-primary.btn-sm:hover {
+        background-color: $monoBlue3 !important;
+        border-color: $monoBlue3 !important;
+    } 
+    /* slider area */
+    .wrap:before {
+        background: $monoBlue1;
+        opacity: 0.6;
+    }
+    .stick-bottom.bg-secondary {
+        .btn.btn-primary.btn-lg.w-100 {
+            color:$monoBlue1 !important;
+            background-color: $monoBlue5 !important;
+            border-color: $monoBlue5 !important;
+        }
+        .btn.btn-primary.btn-lg.w-100:hover { 
+            color: #fff !important;
+            background-color: transparent !important;
+            border-color: $monoBlue5 !important;
+        }
+    }
+    .search  {
+        .fa-graduation-cap {
+            color: $monoBlue3 !important;
+        }
+        .btn.btn-primary {
+            color: #fff !important;
+            background-color: $monoBlue3 !important;
+            border-color: $monoBlue3 !important;
+        }
+        .btn.btn-primary:hover {
+            color: #333 !important;
+            background-color: $monoBlue2 !important;
+            border-color: $monoBlue2 !important;
+        }
+    }
+    /* featured courses */
+    #courses {
+        .btn.btn-primary.btn-md,
+        .btn.btn-lg.btn-primary {
+            color: #fff !important;
+            background-color: $monoBlue3 !important;
+            border-color: $monoBlue3 !important;
+        }
+
+        .btn.btn-primary.btn-md:hover,
+        .btn.btn-lg.btn-primary:hover {
+            color: #fff !important;
+            background-color: $monoBlue2 !important;
+            border-color: $monoBlue2 !important;
+        }
+    }
+
+    /* about us */
+    #about {
+        background-color: $monoBlue3 !important;
+    }
+
+    /* faq */
+
+
+    /* contact us */
+    #contact {
+        background-color: $monoBlue3 !important;
+
+        .btn.btn-outline-primary.btn-lg {
+            color: #fff !important;
+            background-color: $monoBlue2 !important;
+            border-color: $monoBlue2 !important;
+        }
+        .btn.btn-outline-primary.btn-lg:hover {
+            background-color: $monoBlue1 !important;
+            border-color: $monoBlue1 !important;
+        }
+    }
+    /* footer */
+    #footer-bar {
+        background-color: $monoBlue1 !important;
+    }
+}
+

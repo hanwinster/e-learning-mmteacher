@@ -1,0 +1,116 @@
+/* from schemecolor dark sea green site */
+// $tria1: #a64499;
+// $tria2: #36a5dc;
+// $tria3: #e3daeb;
+// $tria4: #ffa94c;
+// $tria5: #ea66aa;
+
+$green1: #4B8063;
+$green2: #579774;
+$green3: #67A778;
+$green4: #7CB484;
+$green5: #8FBC8F;
+/* menu */
+.darkseagreen {
+    .bg-secondary {
+        background-color: $green1 !important;
+    }
+    .nav-link:hover {
+        color: #333 !important;
+    }
+    .nav-link.active {
+        background-color: $green5 !important;
+        color: $green1 !important;
+        font-weight: 600 !important;
+    }
+    .nav-link.active:hover {
+        background-color: $green1 !important;
+        color: #fff !important;
+        border-color: $green3 !important;
+        font-weight: 600 !important;
+    }
+    .btn-primary.btn-sm {
+        color: #fff;
+        background-color: transparent !important;
+        border-color: $green4 !important;
+    }
+    .btn-primary.btn-sm:hover {
+        background-color: $green3 !important;
+        border-color: $green3 !important;
+    }
+    /* slider area */
+    .wrap:before {
+        background: $green1;
+        opacity: 0.6;
+    }
+    .stick-bottom.bg-secondary {
+        .btn.btn-primary.btn-lg.w-100 {
+            background-color: $green3 !important;
+            border-color: $green3 !important;
+        }
+        .btn.btn-primary.btn-lg.w-100:hover {
+            background-color: transparent !important;
+            border-color: $green3 !important;
+        }
+    }
+    .search  {
+        .fa-graduation-cap {
+            color: $green3 !important;
+        }
+        .btn.btn-primary {
+            color: #fff !important;
+            background-color: $green3 !important;
+            border-color: $green3 !important;
+        }
+        .btn.btn-primary:hover {
+            color: #333 !important;
+            background-color: $green5 !important;
+            border-color: $green5 !important;
+        }
+    }
+    /* featured courses */
+    #courses {
+        .btn.btn-primary.btn-md,
+        .btn.btn-lg.btn-primary {
+            color: #fff !important;
+            background-color: $green3 !important;
+            border-color: $green3 !important;
+        }
+
+        .btn.btn-primary.btn-md:hover,
+        .btn.btn-lg.btn-primary:hover {
+            color: #fff !important;
+            background-color: $green2 !important;
+            border-color: $green2 !important;
+        }
+    }
+
+    /* about us */
+    #about {
+        background-color: $green3 !important;
+    }
+
+    /* faq */
+
+
+    /* contact us */
+    #contact {
+        background-color: $green4 !important;
+
+        .btn.btn-outline-primary.btn-lg {
+            color: #fff !important;
+            background-color: $green2 !important;
+            border-color: $green2 !important;
+        }
+        .btn.btn-outline-primary.btn-lg:hover {
+            background-color: $green1 !important;
+            border-color: $green1 !important;
+        }
+    }
+    
+    /* footer */
+    #footer-bar {
+        background-color: $green1 !important;
+    }
+}
+

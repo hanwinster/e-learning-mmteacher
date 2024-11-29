@@ -1,0 +1,172 @@
+/* from schemecolor blue green cousera */
+$cousera1: #fff;
+$cousera2: #f5f5f5; /* course category color */
+$cousera3: #cde1fb; //#ebf3ff; /* about us */
+$cousera4: #0056d2;  /* main buttons color */
+$cousera5: #00419e;  /* main buttons hover color */
+
+
+
+/* menu */
+.cousera {
+    #color-switcher {
+        a {
+            background-color: #444 !important; 
+        }
+    } 
+
+    /* logo */
+    #logo-wrapper img {
+        filter: invert(26%) sepia(97%) saturate(7326%) hue-rotate(211deg) brightness(93%) contrast(101%);
+    }
+    #navbar-header{
+        border: solid 0.6px #eee;
+        box-shadow: 0 2px 10px 0 rgb(44 130 237 / 40%);
+    }
+    .bg-secondary {
+        background-color: $cousera1 !important;
+        color: $cousera4 !important;
+    }
+    .nav-link {
+        color: $cousera4 !important;
+    }
+    .nav-link:hover {
+        color: #333 !important;
+    }
+    .nav-link.active {
+        background-color: $cousera4 !important;
+        color: $cousera1 !important;
+        font-weight: 600 !important;
+    }
+    .nav-link.active:hover {
+        background-color: $cousera1 !important;
+        color: $cousera4 !important;
+        border-color: $cousera4 !important;
+        font-weight: 600 !important;
+    }
+    .btn-primary.btn-sm {
+        color: $cousera1 !important;
+        background-color: $cousera4 !important;
+        border-color: $cousera4 !important;
+    }
+    .btn-primary.btn-sm:hover {
+        background-color: $cousera1 !important;
+        color: $cousera4 !important;
+        border-color: $cousera4 !important;
+    } 
+    .btn-danger.btn-sm:hover {
+        background-color: transparent !important;
+        color: $danger!important;
+        border-color: $danger !important;
+    }
+    /* slider area */
+    .wrap:before {
+        background: #6A96E1;
+        opacity: 0.6;
+    }
+    .stick-bottom.bg-secondary {
+        background-color: $cousera3 !important;
+
+        .btn.btn-primary.btn-lg.w-100 {
+            color:$cousera1 !important;
+            background-color: $cousera4 !important;
+            border-color: $cousera4 !important;
+        }
+        .btn.btn-primary.btn-lg.w-100:hover {
+            color: $cousera4 !important;
+            background-color: transparent !important;
+            border-color: $cousera4 !important;
+        }
+    }
+    .search  {
+        img {
+            filter : invert(26%) sepia(97%) saturate(7326%) hue-rotate(211deg) brightness(93%) contrast(101%); 
+        }
+        ::placeholder {
+            color: $cousera4 !important;
+        }
+        .btn.btn-primary {
+            color: #fff !important;
+            background-color: $cousera4 !important;
+            border-color: $cousera4 !important;
+        }
+        .btn.btn-primary:hover {
+            color: #333 !important;
+            background-color: transparent !important;
+            border-color: $cousera5 !important;
+        }
+    }
+    /* featured courses */
+    #courses {
+        .btn.btn-primary.btn-md,
+        .btn.btn-lg.btn-primary {
+            color: #fff !important;
+            background-color: $cousera4 !important;
+            border-color: $cousera4 !important;
+        }
+
+        .btn.btn-primary.btn-md:hover,
+        .btn.btn-lg.btn-primary:hover {
+            color: #fff !important;
+            background-color: $cousera5 !important;
+            border-color: $cousera5 !important;
+        }
+    }
+
+    /* about us */
+    #about {
+        color: $cousera5 !important;
+        background-color: $cousera3 !important;
+
+        .page-section-heading.text-center.text-white {
+            color: $cousera5 !important;
+        }
+    }
+    
+    /* faq */
+
+
+    /* contact us */
+    #contact {
+        background-color: $cousera3 !important;
+
+        .btn.btn-outline-primary.btn-lg {
+            color: #fff !important;
+            background-color: $cousera2 !important;
+            border-color: $cousera2 !important;
+        }
+        .btn.btn-outline-primary.btn-lg:hover {
+            background-color: $cousera1 !important;
+            border-color: $cousera1 !important;
+        }
+    }
+    /* footer */
+    #footer-bar {
+        background-color: $cousera3 !important;
+        a.footer-link {
+            color: $cousera4 !important;
+        } 
+        a.footer-link:hover {
+            color: $cousera5 !important;
+        }        
+    }
+    .nav-item:hover {
+        color: #333 !important;
+    }
+
+    #myTab {
+        .nav-link.nav-link-onscroll.active, .nav-link.nav-link-onscroll.active:focus {
+            color: #fff !important;
+        }
+        .nav-link.nav-link-onscroll:hover, .nav-link.nav-link-onscroll.active:hover {
+            color: $cousera5 !important;
+        }
+    }
+}
+
+.copyright.py-4.text-center.text-white.cousera {
+    background-color: $cousera1 !important;
+    color: $cousera5 !important;
+}
+
+

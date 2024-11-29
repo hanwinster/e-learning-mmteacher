@@ -1,0 +1,75 @@
+.v-hidden { 
+  visibility: hidden !important;
+}
+  
+.v-show { 
+  visibility: visible !important;
+}
+
+.thumb-img {
+  width: 4rem !important;
+  height: auto;
+}
+.f-500 {
+  font-weight: 500 !important;
+}
+small, .small {
+  font-size: 0.875em;
+}
+ 
+pre,
+code,
+kbd, 
+samp {
+  font-family: Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+  direction: ltr /* rtl:ignore */;
+  unicode-bidi: bidi-override;
+}
+
+kbd { 
+    padding: 0.2rem 0.4rem;
+    font-size: 0.875em;
+    color: #fff;
+    background-color: #212529;
+    border-radius: 0.25rem;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+@font-face { 
+  font-family:'CloisterBlackLight';
+  src:local('CloisterBlack'),
+  url('/assets/fonts/fonts/CloisterBlackLight.ttf') format('truetype');
+}
+
+@font-face { 
+  font-family:'CloisterBlack';
+  src:local('CloisterBlack'),
+  url('/assets/fonts/fonts/CloisterBlack.ttf') format('truetype');
+}
+
+.certificate-font {
+  font-family: CloisterBlack !important; 
+}
+
+.mt-1-8 {
+  margin-top: 1.8rem !important;
+}
+
+.up-1rem {
+  margin-top: -1rem !important;
+}
+
+.up-half-rem {
+  margin-top: -0.5rem !important;
+}
+
+.mt-2-p-4rem {
+  margin-top: 2.4rem !important;
+}
+.underline {
+  text-decoration: underline !important;
+}
